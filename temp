@@ -1,0 +1,126 @@
+<section className="container py-5">
+        <div className="row text-center pt-5 pb-3">
+          <div className="col-lg-6 m-auto">
+            <h1 className="h1">My Projects</h1>
+            <p>
+              Define the solution, create a roadmap,
+              establish architecture and design the product.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+
+          <div className="col-md-6 col-lg-3 pb-5">
+            <div className="h-100 py-5 services-icon-wap shadow">
+              <div className="h1 text-success text-center"><i className="fa fa-truck fa-lg"></i></div>
+              <h2 className="h5 mt-4 text-center">Create a Roadmap</h2>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-lg-3 pb-5">
+            <div className="h-100 py-5 services-icon-wap shadow">
+              <div className="h1 text-success text-center"><i className="fas fa-exchange-alt"></i></div>
+              <h2 className="h5 mt-4 text-center">Research</h2>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-lg-3 pb-5">
+            <div className="h-100 py-5 services-icon-wap shadow">
+              <div className="h1 text-success text-center"><i className="fa fa-percent"></i></div>
+              <h2 className="h5 mt-4 text-center">Promotion</h2>
+            </div>
+          </div>
+
+          <div className="col-md-6 col-lg-3 pb-5">
+            <div className="h-100 py-5 services-icon-wap shadow">
+              <div className="h1 text-success text-center"><i className="fa fa-user"></i></div>
+              <h2 className="h5 mt-4 text-center">24 Hours Support</h2>
+            </div>
+          </div>
+        </div>
+      </section><section className="bg-light py-5">
+        <div className="container my-4">
+          <div className="row text-center py-3">
+            <div className="col-lg-6 m-auto">
+              <h1 className="h1">Technologies</h1>
+              <p>
+                Here is some of the Technologies I use in my projects
+              </p>
+            </div>
+            <div className="col-lg-9 m-auto tempaltemo-carousel">
+              <div className="row d-flex flex-row">
+                <div className="col-1 align-self-center">
+                  <a className="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+                    <i className="text-light fas fa-chevron-left"></i>
+                  </a>
+                </div>
+
+                <div className="col">
+                  <div className="carousel slide carousel-multi-item pt-3 pt-md-3" id="templatemo-slide-brand" data-bs-ride="carousel">
+                    <div className="carousel-inner product-links-wap" role="listbox">
+
+                      <div className="carousel-item active">
+                        <div className="row">
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/13.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/2.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/3.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/4.png" alt="Brand Logo" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="carousel-item">
+                        <div className="row">
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/5.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/6.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/7.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/8.png" alt="Brand Logo" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="carousel-item">
+                        <div className="row">
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/9.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/10.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/11.png" alt="Brand Logo" />
+                          </div>
+                          <div className="col-3 p-md-5">
+                            <img className="img-fluid brand-img" src="assets/img/technologies/12.png" alt="Brand Logo" />
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-1 align-self-center">
+                  <a className="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
+                    <i className="text-light fas fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
