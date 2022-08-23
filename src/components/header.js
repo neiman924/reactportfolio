@@ -1,7 +1,9 @@
 import * as React from 'react';
 //import IMAGES from './images';
+import bootstrap from "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js";
 
-export default function Header(){
+
+export default function Header({ currentPage, handlePageChange }){
     return(
         <div>
             {/* <!-- Header --> */}
@@ -20,16 +22,45 @@ export default function Header(){
                         <div className="flex-fill">
                             <ul className="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Home</a>
+                                <a
+                                    href="#home"
+                                    onClick={() => handlePageChange('Home')}
+                                    // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+                                    // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+                                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                                    >
+                                    Home
+                                </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/about">About</a>
+                                <a
+                                    href="#about"
+                                    onClick={() => handlePageChange('About')}
+                                    // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                                    >
+                                    About
+                                </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/projects">Projects</a>
+                                <a
+                                    href="#Projects"
+                                    onClick={() => handlePageChange('Projects')}
+                                    // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                                    className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+                                    >
+                                    Projects
+                                </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/contact">Contact</a>
+                                <a
+                                    href="#Contact"
+                                    onClick={() => handlePageChange('Contact')}
+                                    // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                                    >
+                                    Contact
+                                </a>                                
                                 </li>
                                 <li className="nav-item">
                                     {/* {permission ? (
@@ -57,6 +88,7 @@ export default function Header(){
                 </div>
         </nav>
     {/* <!-- Close Header --> */}
+    <script src={bootstrap} integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
         </div>
     );

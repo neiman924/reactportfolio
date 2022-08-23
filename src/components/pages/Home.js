@@ -1,5 +1,8 @@
 import React from 'react';
 import IMAGES from '../images';
+import Resume from '../../assets/doc/Resume.pdf';
+import bootstrap from "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js";
+
 export default function Home() {
   const cardStyle = {
     textAlign:'justify',
@@ -10,7 +13,8 @@ export default function Home() {
   }
   return (
     <div>
-      
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+
     {/* <!-- Modal --> */}
     <div className="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-lg" role="document">
@@ -31,14 +35,14 @@ export default function Home() {
 
 
     {/* <!-- Start Banner Hero --> */}
-    <div id="template-mo-zay-hero-carousel" className="carousel slide" data-bs-ride="carousel">
+    <div id="template-mo-hero-carousel" className="carousel slide" data-bs-ride="carousel">
         <ol className="carousel-indicators">
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" className="active"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#template-mo-hero-carousel" data-bs-slide-to="0" className="active"></li>
+            <li data-bs-target="#template-mo-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-hero-carousel" data-bs-slide-to="2"></li>
         </ol>
         <div className="carousel-inner">
-            <div className="carousel-item active">
+            <div className="carousel-item active" data-bs-interval="5000">
                 <div className="container">
                     <div className="row p-5">
                         <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
@@ -53,7 +57,7 @@ export default function Home() {
                                     Excellent communicator with effective client relationship-building skills. Graduate of (FULL STACK FLEX Bootcamp) through (University of Washington).
                                     <div>
                                         {/* <!-- <iframe src=" " name="iframe_a" height="100%" width="100%" title="Iframe Example"></iframe> --> */}
-                                        <a href="./assets/doc/Resume.pdf" target="iframe_a" className="input-group-text btn-success text-light" style={card2Style}>Download Resume</a>
+                                        <a href={Resume} target="iframe_a" className="input-group-text btn-success text-light" style={card2Style}>Download Resume</a>
                                     </div>
                                 </p>
                             </div>
@@ -61,7 +65,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item" data-bs-interval="5000">
                 <div className="container">
                     <div className="row p-5">
                         <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
@@ -79,7 +83,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item" data-bs-interval="5000">
                 <div className="container">
                     <div className="row p-5">
                         <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
@@ -98,10 +102,10 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <a className="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+        <a className="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-hero-carousel" role="button" data-bs-slide="prev">
             <i className="fas fa-chevron-left"></i>
         </a>
-        <a className="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+        <a className="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-hero-carousel" role="button" data-bs-slide="next">
             <i className="fas fa-chevron-right"></i>
         </a>
     </div>
@@ -304,7 +308,7 @@ export default function Home() {
     </section>
     {/* <!-- End soft skills --> */}
 
-
-    </div>
+    <script src={bootstrap} integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   </div>
   );
 }

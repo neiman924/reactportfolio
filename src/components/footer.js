@@ -31,12 +31,12 @@ export default function Footer() {
                 </div>
 
                 <div className="col-md-4 pt-5">
-                    <h2 className="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                    {/* <h2 className="h2 text-light border-bottom pb-3 border-light">Further Info</h2> */}
                     <ul className="list-unstyled text-light footer-link-list">
                         <li><a className="text-decoration-none" href="/">Home</a></li>
-                        <li><a className="text-decoration-none" href="/about">About</a></li>
+                        {/* <li><a className="text-decoration-none" href="/about">About</a></li>
                         <li><a className="text-decoration-none" href="/projects">Projects</a></li>
-                        <li><a className="text-decoration-none" href="/contact">Contact</a></li>
+                        <li><a className="text-decoration-none" href="/contact">Contact</a></li> */}
                         <li>
                             {/* {{#if logged_in}} 
                                <a class="text-decoration-none" href="/logout">logout</a>

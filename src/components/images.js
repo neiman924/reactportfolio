@@ -18,9 +18,9 @@ const IMAGES = {
     Java: require('../assets/img/Java.png'),
     challenges: require('../assets/img/challenges.png'),
     learn: require('../assets/img/learn.png'),
-    one: require('../assets/img/1.svg'),
+    one: require('../assets/img/1.png'),
     two: require('../assets/img/2.png'),
-    three: require('../assets/img/3.svg'),
+    three: require('../assets/img/3.png'),
     Reactjs: require('../assets/img/tech-skills/Reactjs.png'),
     mongodb: require('../assets/img/tech-skills/mongodb.png'),
     mysql: require('../assets/img/tech-skills/mysql.png'),
@@ -36,7 +36,12 @@ const IMAGES = {
     problemSolving: require('../assets/img/soft-skills/problem-solving.png'),
     teamwork: require('../assets/img/soft-skills/teamwork.png'),
     creativity: require('../assets/img/soft-skills/creativity.png'),
-
+    CoMed: require('../assets/img/CoMed.png'),
+    eCommerce: require('../assets/img/eCommerce.jpg'),
+    library: require('../assets/img/library.png'),
+    Marvel: require('../assets/img/Marvel.png'),
+    MyDriver: require('../assets/img/My-Driver.jpg'),
+    selfcheckout: require('../assets/img/selfcheckout.png'),
 
 }
 
