@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "43743bfabbb24df5ca78",
+    "revision": "063ac1bbfca834bdd557",
     "url": "/reactportfolio/static/css/main.cc71958f.chunk.css"
   },
   {
-    "revision": "43743bfabbb24df5ca78",
-    "url": "/reactportfolio/static/js/main.1e8c2eb9.chunk.js"
+    "revision": "063ac1bbfca834bdd557",
+    "url": "/reactportfolio/static/js/main.346995b9.chunk.js"
   },
   {
     "revision": "8007ccf6b0ab45eb369a",
@@ -152,8 +152,16 @@ self.__precacheManifest = [
     "url": "/reactportfolio/static/media/fa-brands-400.e2ca6541.eot"
   },
   {
+    "revision": "b01516c1808be557667befec76cd6318",
+    "url": "/reactportfolio/static/media/fa-regular-400.b01516c1.eot"
+  },
+  {
     "revision": "ad527cc5ec23d6da66e8a1d6772ea6d3",
     "url": "/reactportfolio/static/media/fa-brands-400.ad527cc5.woff"
+  },
+  {
+    "revision": "8300bd7f30e0a313c1d772b49d96cb8e",
+    "url": "/reactportfolio/static/media/fa-brands-400.8300bd7f.ttf"
   },
   {
     "revision": "f075c50f89795e4cdb4d45b51f1a6800",
@@ -164,28 +172,20 @@ self.__precacheManifest = [
     "url": "/reactportfolio/static/media/fa-regular-400.4a74738e.woff2"
   },
   {
-    "revision": "b01516c1808be557667befec76cd6318",
-    "url": "/reactportfolio/static/media/fa-regular-400.b01516c1.eot"
+    "revision": "49f00693b0e5d45097832ef5ea1bc541",
+    "url": "/reactportfolio/static/media/fa-regular-400.49f00693.ttf"
   },
   {
     "revision": "3c6879c4f342203d099bdd66dce6d396",
     "url": "/reactportfolio/static/media/fa-regular-400.3c6879c4.woff"
   },
   {
-    "revision": "8300bd7f30e0a313c1d772b49d96cb8e",
-    "url": "/reactportfolio/static/media/fa-brands-400.8300bd7f.ttf"
-  },
-  {
-    "revision": "49f00693b0e5d45097832ef5ea1bc541",
-    "url": "/reactportfolio/static/media/fa-regular-400.49f00693.ttf"
+    "revision": "3602b7e8b2cb1462b0bef9738757ef8a",
+    "url": "/reactportfolio/static/media/fa-regular-400.3602b7e8.svg"
   },
   {
     "revision": "8e1ed89b6ccb8ce41faf5cb672677105",
     "url": "/reactportfolio/static/media/fa-solid-900.8e1ed89b.woff2"
-  },
-  {
-    "revision": "3602b7e8b2cb1462b0bef9738757ef8a",
-    "url": "/reactportfolio/static/media/fa-regular-400.3602b7e8.svg"
   },
   {
     "revision": "8ac3167427b1d5d2967646bd8f7a0587",
@@ -208,7 +208,7 @@ self.__precacheManifest = [
     "url": "/reactportfolio/static/media/fa-solid-900.664de393.svg"
   },
   {
-    "revision": "c379c0144e1aca10df9dd51c37d9b8b2",
+    "revision": "b9fce31a9984d523a9b12a793b22a161",
     "url": "/reactportfolio/index.html"
   }
 ];
