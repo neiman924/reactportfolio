@@ -1,7 +1,6 @@
 import React from 'react';
 import IMAGES from '../images';
 import Resume from '../../assets/doc/Resume.pdf';
-//import bootstrap from "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js";
 
 export default function Home() {
   const cardStyle = {
