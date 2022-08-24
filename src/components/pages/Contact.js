@@ -1,5 +1,5 @@
 import * as React from 'react';
-//import formSub from '../../assets/js/formsubmit';
+import formSub from '../../assets/js/formsubmit';
 // import IMAGES from '../images';
 
 export default function Contact() {
@@ -65,7 +65,7 @@ export default function Contact() {
           </div>
           {/* <!-- End Contact --> */}
 
-          {/* <script src={formSub}></script> */}
+          <script src={formSub}></script>
 
     </div>
   );
