@@ -1,14 +1,12 @@
-import React from 'react';
-import formSubmit from '../../assets/js/formsubmit'
+import * as React from 'react';
+//import formSub from '../../assets/js/formsubmit';
 // import IMAGES from '../images';
 
 export default function Contact() {
   return (
     <div>
 
-          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-
-
+{/* * */}
           {/* <!-- Modal --> */}
           <div className="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div className="modal-dialog modal-lg" role="document">
@@ -67,8 +65,9 @@ export default function Contact() {
           </div>
           {/* <!-- End Contact --> */}
 
-          <script src={formSubmit}></script>
+          {/* <script src={formSub}></script> */}
 
     </div>
   );
 }
+

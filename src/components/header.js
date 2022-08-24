@@ -1,6 +1,6 @@
 import * as React from 'react';
 //import IMAGES from './images';
-import bootstrap from "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js";
+//import bootstrap from "../assets/js/bootstrap.bundle.min.js";
 
 
 export default function Header({ currentPage, handlePageChange }){
@@ -88,7 +88,7 @@ export default function Header({ currentPage, handlePageChange }){
                 </div>
         </nav>
     {/* <!-- Close Header --> */}
-    <script src={bootstrap} integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    {/* <script src={bootstrap} integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> */}
 
         </div>
     );

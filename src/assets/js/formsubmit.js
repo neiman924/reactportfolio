@@ -30,3 +30,4 @@ const newFormHandler = async (event) => {
 document
   .addEventListener('submit', newFormHandler);
 
+export default newFormHandler;

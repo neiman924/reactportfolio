@@ -38,7 +38,7 @@ export default function Head() {
         //   </Toolbar>
         // </AppBar>
     <div>
-        <head>
+        {/* <head>
             <title>Neiman Portfolio</title>
             <meta charset="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -48,7 +48,7 @@ export default function Head() {
             <link rel="stylesheet" href="assets/css/custom.css"/>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap"/>
             <link rel="stylesheet" href="assets/css/fontawesome.min.css"/>
-        </head>
+        </head> */}
     </div>
     );
   }
