@@ -10,7 +10,7 @@ export default function Header({ currentPage, handlePageChange }){
             <nav className="navbar navbar-expand-lg navbar-light shadow">
                 <div className="container d-flex justify-content-between align-items-center">
 
-                    <a className="navbar-brand text-success logo h1 align-self-center" href="/">
+                    <a className="navbar-brand text-success logo h1 align-self-center" href="/reactportfolio">
                         JNeiman
                     </a>
 
