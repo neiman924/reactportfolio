@@ -19,11 +19,11 @@ const newFormHandler = async (event) => {
       document.location.replace('/');
     } else {
       alert('Failed to submit your comment! please fill all requested fileds.');
-      document.location.replace('/contact');
+      document.location.replace('/');
     }
   }else{
     alert('Failed to submit your comment! please fill all requested fileds.');
-    document.location.replace('/contact');
+    document.location.replace('/');
   }
 };
 
