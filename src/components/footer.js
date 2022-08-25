@@ -33,7 +33,7 @@ export default function Footer() {
                 <div className="col-md-4 pt-5">
                     {/* <h2 className="h2 text-light border-bottom pb-3 border-light">Further Info</h2> */}
                     <ul className="list-unstyled text-light footer-link-list">
-                        <li><a className="text-decoration-none" href="/">Home</a></li>
+                        <li><a className="text-decoration-none" href="/reactportfolio">Home</a></li>
                         {/* <li><a className="text-decoration-none" href="/about">About</a></li>
                         <li><a className="text-decoration-none" href="/projects">Projects</a></li>
                         <li><a className="text-decoration-none" href="/contact">Contact</a></li> */}
