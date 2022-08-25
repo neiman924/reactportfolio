@@ -16,14 +16,14 @@ const newFormHandler = async (event) => {
 
     if (response.ok) {      
       alert("Your information submited, I'll contact you as soon as possible!");
-      document.location.replace('/');
+      document.location.replace('/reactportfolio');
     } else {
       alert('Failed to submit your comment! please fill all requested fileds.');
-      document.location.replace('/');
+      document.location.replace('/reactportfolio');
     }
   }else{
     alert('Failed to submit your comment! please fill all requested fileds.');
-    document.location.replace('/');
+    document.location.replace('/reactportfolio');
   }
 };
 
