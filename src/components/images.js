@@ -12,7 +12,7 @@ const IMAGES = {
     techLogo11: require('../assets/img/technologies/11.png'),
     techLogo12: require('../assets/img/technologies/12.png'),
     techLogo13: require('../assets/img/technologies/13.png'),
-    aboutImg: require('../assets/img/about-hero.svg').default,
+    aboutImg: require('../assets/img/about-hero.svg'),
     JN: require('../assets/img/JN.png'),
     signature: require('../assets/img/signature.png'),
     Java: require('../assets/img/Java.png'),
