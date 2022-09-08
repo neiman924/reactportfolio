@@ -43,11 +43,13 @@ module.exports = {
   signToken: function signToken(_ref2) {
     var email = _ref2.email,
         name = _ref2.name,
-        _id = _ref2._id;
+        _id = _ref2._id,
+        permission = _ref2.permission;
     var payload = {
       email: email,
       name: name,
-      _id: _id
+      _id: _id,
+      permission: permission
     };
     return jwt.sign({
       data: payload

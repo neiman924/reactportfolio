@@ -3,7 +3,11 @@ import Auth from '../utils/auth';
 import { Link } from 'react-router-dom';
 
 export default function navbar() {
-    const logout = (event) => {
+    var permission = false;
+    if(Auth.loggedIn()){
+     permission = Auth.getProfile().data.permission;
+    }
+        const logout = (event) => {
         event.preventDefault();
         Auth.logout();
       };
@@ -18,6 +22,11 @@ export default function navbar() {
                         <i className="fa fa-phone mx-2"></i>
                         <a className="navbar-sm-brand text-light text-decoration-none" href="tel:2067715104">(206)771-5104</a>
                         <div>
+                                    {permission?(
+                                    <Link className="btn btn-lg btn-info m-2" to="/me">
+                                        {Auth.getProfile().data.name}
+                                    </Link>
+                                    ):null}
                                     {Auth.loggedIn() ? (
                                         <>
                                         <Link className="btn btn-lg btn-info m-2" to="/">

@@ -9,12 +9,15 @@ const resolvers = {
     },
     comments: async () => {
       return Comment.find();
+    },
+    user: async (parent, { email }) => {
+      return User.findOne({ email });
     }
   },
 
   Mutation: {
     addUser: async (parent, { name, email, password }) => {
-      const user = await User.create({ name, email, password });
+      const user = await User.create({ name, email, password,permission });
       const token = signToken(user);
       return { token, user };
     },
@@ -35,6 +38,9 @@ const resolvers = {
       const token = signToken(user);
 
       return { token, user };
+    },
+    singleUser: async (parent, { email }) => {
+      return User.findOne({ email: email });
     },
     addComment: async (parent, { comment,name,email }) => {
         const commentText = await Comment.create({comment,name,email});

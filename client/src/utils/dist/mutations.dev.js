@@ -3,9 +3,19 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.ADD_COMMENT = exports.ADD_USER = exports.LOGIN = void 0;
+exports.SINGLE_USER = exports.ADD_COMMENT = exports.ADD_USER = exports.LOGIN = void 0;
 
 var _client = require("@apollo/client");
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\n  mutation singleUser($email: String!) {\n    user(email: $email) {\n        name\n        permission\n    }\n  }\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
 
 function _templateObject3() {
   var data = _taggedTemplateLiteral(["\n  mutation addComment($comment: String!,$name: String,$email: String) {\n    addComment(comment: $comment,name:$name,email:$email) {\n      _id\n      comment\n      name\n      email\n    }\n  }\n"]);
@@ -28,7 +38,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  mutation login($email: String!, $password: String!) {\n    login(email: $email, password: $password) {\n      token\n      user {\n        _id\n        name\n      }\n    }\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  mutation login($email: String!, $password: String!) {\n    login(email: $email, password: $password) {\n      token\n      user {\n        _id\n        name\n        permission\n      }\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -45,3 +55,5 @@ var ADD_USER = (0, _client.gql)(_templateObject2());
 exports.ADD_USER = ADD_USER;
 var ADD_COMMENT = (0, _client.gql)(_templateObject3());
 exports.ADD_COMMENT = ADD_COMMENT;
+var SINGLE_USER = (0, _client.gql)(_templateObject4());
+exports.SINGLE_USER = SINGLE_USER;

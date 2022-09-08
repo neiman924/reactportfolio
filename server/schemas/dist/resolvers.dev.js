@@ -39,70 +39,89 @@ var resolvers = {
           }
         }
       });
-    }
-  },
-  Mutation: {
-    addUser: function addUser(parent, _ref) {
-      var name, email, password, user, token;
-      return regeneratorRuntime.async(function addUser$(_context3) {
+    },
+    user: function user(parent, _ref) {
+      var email;
+      return regeneratorRuntime.async(function user$(_context3) {
         while (1) {
           switch (_context3.prev = _context3.next) {
             case 0:
-              name = _ref.name, email = _ref.email, password = _ref.password;
-              _context3.next = 3;
+              email = _ref.email;
+              return _context3.abrupt("return", User.findOne({
+                email: email
+              }));
+
+            case 2:
+            case "end":
+              return _context3.stop();
+          }
+        }
+      });
+    }
+  },
+  Mutation: {
+    addUser: function addUser(parent, _ref2) {
+      var name, email, password, user, token;
+      return regeneratorRuntime.async(function addUser$(_context4) {
+        while (1) {
+          switch (_context4.prev = _context4.next) {
+            case 0:
+              name = _ref2.name, email = _ref2.email, password = _ref2.password;
+              _context4.next = 3;
               return regeneratorRuntime.awrap(User.create({
                 name: name,
                 email: email,
-                password: password
+                password: password,
+                permission: permission
               }));
 
             case 3:
-              user = _context3.sent;
+              user = _context4.sent;
               token = signToken(user);
-              return _context3.abrupt("return", {
+              return _context4.abrupt("return", {
                 token: token,
                 user: user
               });
 
             case 6:
             case "end":
-              return _context3.stop();
+              return _context4.stop();
           }
         }
       });
     },
-    login: function login(parent, _ref2) {
+    login: function login(parent, _ref3) {
       var email, password, user, correctPw, token;
-      return regeneratorRuntime.async(function login$(_context4) {
+      return regeneratorRuntime.async(function login$(_context5) {
         while (1) {
-          switch (_context4.prev = _context4.next) {
+          switch (_context5.prev = _context5.next) {
             case 0:
-              email = _ref2.email, password = _ref2.password;
+              email = _ref3.email, password = _ref3.password;
               console.log('------------------------');
-              _context4.next = 4;
+              _context5.next = 4;
               return regeneratorRuntime.awrap(User.findOne({
                 email: email
               }));
 
             case 4:
-              user = _context4.sent;
+              user = _context5.sent;
 
               if (user) {
-                _context4.next = 7;
+                _context5.next = 7;
                 break;
               }
 
               throw new AuthenticationError('No user found with this email address');
 
             case 7:
-              _context4.next = 9;
+              _context5.next = 9;
               return regeneratorRuntime.awrap(user.isCorrectPassword(password));
 
             case 9:
-              correctPw = _context4.sent;
+              correctPw = _context5.sent;
 
               if (correctPw) {
-                _context4.next = 12;
+                _context5.next = 12;
                 break;
               }
 
@@ -110,26 +129,44 @@ var resolvers = {
 
             case 12:
               token = signToken(user);
-              return _context4.abrupt("return", {
+              return _context5.abrupt("return", {
                 token: token,
                 user: user
               });
 
             case 14:
             case "end":
-              return _context4.stop();
+              return _context5.stop();
           }
         }
       });
     },
-    addComment: function addComment(parent, _ref3) {
-      var comment, name, email, commentText;
-      return regeneratorRuntime.async(function addComment$(_context5) {
+    singleUser: function singleUser(parent, _ref4) {
+      var email;
+      return regeneratorRuntime.async(function singleUser$(_context6) {
         while (1) {
-          switch (_context5.prev = _context5.next) {
+          switch (_context6.prev = _context6.next) {
             case 0:
-              comment = _ref3.comment, name = _ref3.name, email = _ref3.email;
-              _context5.next = 3;
+              email = _ref4.email;
+              return _context6.abrupt("return", User.findOne({
+                email: email
+              }));
+
+            case 2:
+            case "end":
+              return _context6.stop();
+          }
+        }
+      });
+    },
+    addComment: function addComment(parent, _ref5) {
+      var comment, name, email, commentText;
+      return regeneratorRuntime.async(function addComment$(_context7) {
+        while (1) {
+          switch (_context7.prev = _context7.next) {
+            case 0:
+              comment = _ref5.comment, name = _ref5.name, email = _ref5.email;
+              _context7.next = 3;
               return regeneratorRuntime.awrap(Comment.create({
                 comment: comment,
                 name: name,
@@ -137,12 +174,12 @@ var resolvers = {
               }));
 
             case 3:
-              commentText = _context5.sent;
-              return _context5.abrupt("return", commentText);
+              commentText = _context7.sent;
+              return _context7.abrupt("return", commentText);
 
             case 5:
             case "end":
-              return _context5.stop();
+              return _context7.stop();
           }
         }
       });

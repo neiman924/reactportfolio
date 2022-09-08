@@ -2,6 +2,7 @@ import decode from 'jwt-decode';
 
 class AuthService {
   getProfile() {
+    //console.log(decode(this.getToken()));
     return decode(this.getToken());
   }
 
@@ -24,17 +25,18 @@ class AuthService {
   }
 
   getToken() {
-    return localStorage.getItem('id_token');
+    return localStorage.getItem('id_token','permission');
   }
 
-  login(idToken) {
+  login(idToken,permission) {
     localStorage.setItem('id_token', idToken);
+    localStorage.setItem('permission', permission);
     window.location.assign('/');
   }
 
   logout() {
     localStorage.removeItem('id_token');
-    window.location.reload();
+    window.location.reload('/');
   }
 }
 

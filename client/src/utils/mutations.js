@@ -7,6 +7,7 @@ export const LOGIN = gql`
       user {
         _id
         name
+        permission
       }
     }
   }
@@ -31,6 +32,15 @@ export const ADD_COMMENT = gql`
       comment
       name
       email
+    }
+  }
+`;
+
+export const SINGLE_USER = gql`
+  mutation singleUser($email: String!) {
+    user(email: $email) {
+        name
+        permission
     }
   }
 `;

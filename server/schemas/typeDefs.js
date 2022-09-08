@@ -34,6 +34,7 @@ const typeDefs = gql`
     addUser(name: String!, email: String!, password: String!,permission: Boolean): Auth
     login(email: String!, password: String!): Auth
     addComment(comment: String!,name: String,email:String): Comment
+    singleUser(name: String,email:String,permission:Boolean):User
   }
 `;
 

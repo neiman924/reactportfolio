@@ -18,6 +18,7 @@ import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
+import Profile from './components/pages/Profile';
 
 
 
@@ -85,6 +86,10 @@ function App(){
                     <Route 
                         path="/home"
                         element={<Home />}
+                    />
+                    <Route 
+                        path="/me"
+                        element={<Profile />}
                     />
                 </Routes>
             </div>

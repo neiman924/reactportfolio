@@ -28,12 +28,12 @@ const Login = (props) => {
     event.preventDefault();
     console.log(formState);
     try {
-      console.log('------------------------',data);
       const { data } = await login({
         variables: { ...formState },
       });
-      console.log('------------------------',data);
-      Auth.login(data.login.token);
+      Auth.login(data.login.token,data.login.user.permission);
+      //localStorage.setItem('status',data.login.user.permission);
+      //Auth.login(data.login.token);
     } catch (e) {
       console.log(e);
     }
