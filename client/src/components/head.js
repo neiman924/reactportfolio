@@ -1,5 +1,5 @@
 import * as React from "react";
-import IMAGES from "./images";
+//import IMAGES from "./images";
   
 // importing material UI components
 // import AppBar from "@mui/material/AppBar";

@@ -100,14 +100,14 @@ export default function Projects(){
                                 <img className="card-img rounded-0 img-fluid" src={IMAGES.CoMed} alt="" />
                                 <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul className="list-unstyled">
-                                        <li><a className="btn btn-success text-white mt-2" href="https://comed-main-jkgmxnk2ilqbfiz9mjb.herokuapp.com/" target="_blank"  rel="noreferrer" ><i className="far fa-eye"></i></a></li>
+                                        <li><a className="btn btn-success text-white mt-2" href="https://comed-main-jkgmxnk2ilqbfiz9mjb.herokuapp.com/" target="_blank"  rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="card-body">
-                                <a href="https://comed-main-jkgmxnk2ilqbfiz9mjb.herokuapp.com/" target="_blank" rel="noreferrer" className="h3 text-decoration-none">COVID Medication</a>
+                                <a href="https://comed-main-jkgmxnk2ilqbfiz9mjb.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="h3 text-decoration-none">COVID Medication</a>
                                 <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><a href="https://github.com/neiman924/CoMed" target="_blank" rel="noreferrer" className="h3 text-decoration-none">Github</a></li>
+                                    <li><a href="https://github.com/neiman924/CoMed" target="_blank" rel="noopener noreferrer" className="h3 text-decoration-none">Github</a></li>
                                 </ul>
                                 <p className="text-center mb-0">Technologies:</p>
                                 <p>JavaScript | Express | API | MySQL</p>
@@ -121,14 +121,14 @@ export default function Projects(){
                                 <img className="card-img rounded-0 img-fluid" src={IMAGES.eCommerce} alt="" />
                                 <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul className="list-unstyled">
-                                        <li><a className="btn btn-success text-white mt-2" href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank"  rel="noreferrer" ><i className="far fa-eye"></i></a></li>
+                                        <li><a className="btn btn-success text-white mt-2" href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank"  rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="card-body">
-                                <a href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noreferrer" className="h3 text-decoration-none">eCommerce</a>
+                                <a href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noopener noreferrer" className="h3 text-decoration-none">eCommerce</a>
                                 <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><a href="https://github.com/neiman924/eCommerce" target="_blank" rel="noreferrer" className="h3 text-decoration-none">Github</a></li>
+                                    <li><a href="https://github.com/neiman924/eCommerce" target="_blank" rel="noopener noreferrer" className="h3 text-decoration-none">Github</a></li>
                                 </ul>
                                 <p className="text-center mb-0">Technologies:</p>
                                 <p>JavaScript | Express | API | MySQL</p>
@@ -142,14 +142,14 @@ export default function Projects(){
                                 <img className="card-img rounded-0 img-fluid" src={IMAGES.library} alt=""/>
                                 <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul className="list-unstyled">
-                                        <li><a className="btn btn-success text-white mt-2" href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank"  rel="noreferrer" ><i className="far fa-eye"></i></a></li>
+                                        <li><a className="btn btn-success text-white mt-2" href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank"  rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="card-body">
-                                <a href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noreferrer" className="h3 text-decoration-none">Library</a>
+                                <a href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noopener noreferrer" className="h3 text-decoration-none">Library</a>
                                  <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><a href="https://github.com/neiman924/library" target="_blank"  rel="noreferrer" className="h3 text-decoration-none">Github</a></li>
+                                    <li><a href="https://github.com/neiman924/library" target="_blank"  rel="noopener noreferrer" className="h3 text-decoration-none">Github</a></li>
                                 </ul>
                                 <p className="text-center mb-0">Technologies:</p>
                                 <p>JavaScript | Express | API | MySQL</p>
@@ -163,14 +163,14 @@ export default function Projects(){
                                 <img className="card-img rounded-0 img-fluid" src={IMAGES.Marvel} alt=""/>
                                 <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul className="list-unstyled">
-                                        <li><a className="btn btn-success text-white mt-2" href="https://moetive.github.io/Project-1/" target="_blank"  rel="noreferrer" ><i className="far fa-eye"></i></a></li>
+                                        <li><a className="btn btn-success text-white mt-2" href="https://moetive.github.io/Project-1/" target="_blank"  rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="card-body">
-                                <a href="https://moetive.github.io/Project-1/" target="_blank"  rel="noreferrer" className="h3 text-decoration-none">Marvel</a>
+                                <a href="https://moetive.github.io/Project-1/" target="_blank"  rel="noopener noreferrer" className="h3 text-decoration-none">Marvel</a>
                                 <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><a href="https://github.com/Moetive/Project-1" target="_blank"  rel="noreferrer" className="h3 text-decoration-none">Github</a></li>
+                                    <li><a href="https://github.com/Moetive/Project-1" target="_blank"  rel="noopener noreferrer" className="h3 text-decoration-none">Github</a></li>
                                 </ul>
                                 <p className="text-center mb-0">Technologies:</p>
                                 <p>JavaScript | Express | API</p>
@@ -183,14 +183,14 @@ export default function Projects(){
                                 <img className="card-img rounded-0 img-fluid " src={IMAGES.MyDriver} alt="" />
                                 <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul className="list-unstyled">
-                                        <li><a className="btn btn-success text-white mt-2" href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noreferrer" ><i className="far fa-eye"></i></a></li>
+                                        <li><a className="btn btn-success text-white mt-2" href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="card-body">
-                                <a href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noreferrer" className="h3 text-decoration-none">My-Driver APP</a>
+                                <a href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noopener noreferrer" className="h3 text-decoration-none">My-Driver APP</a>
                                  <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><a href="https://github.com/neiman924/mydriver" target="_blank" rel="noreferrer"  className="h3 text-decoration-none">Github</a></li>
+                                    <li><a href="https://github.com/neiman924/mydriver" target="_blank" rel="noopener noreferrer"  className="h3 text-decoration-none">Github</a></li>
                                 </ul>
                                 <p className="text-center mb-0">Technologies:</p>
                                 <p>JavaScript | Express | API | MySQL</p>
@@ -203,14 +203,14 @@ export default function Projects(){
                                 <img className="card-img rounded-0 img-fluid" src={IMAGES.selfcheckout} alt=""/>
                                 <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul className="list-unstyled">
-                                        <li><a className="btn btn-success text-white mt-2" href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noreferrer" ><i className="far fa-eye"></i></a></li>
+                                        <li><a className="btn btn-success text-white mt-2" href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="card-body">
-                                <a href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noreferrer"  className="h3 text-decoration-none">Self Checkout</a>
+                                <a href="https://jneiman.herokuapp.com/comingsoon.html" target="_blank" rel="noopener noreferrer"  className="h3 text-decoration-none">Self Checkout</a>
                                  <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><a href="https://github.com/neiman924/selfcheckout" target="_blank" rel="noreferrer"  className="h3 text-decoration-none">Github</a></li>
+                                    <li><a href="https://github.com/neiman924/selfcheckout" target="_blank" rel="noopener noreferrer"  className="h3 text-decoration-none">Github</a></li>
                                 </ul>
                                 <p className="text-center mb-0">Technologies:</p>
                                 <p>JavaScript | Express | API | MySQL</p>
