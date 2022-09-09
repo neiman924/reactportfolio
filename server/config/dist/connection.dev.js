@@ -11,7 +11,7 @@
 // module.exports = mongoose.connection;
 var mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://googlebooks:googlebooks@cluster0.z6ecx7d.mongodb.net/portfolio?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://googlebooks:googlebooks@cluster0.z6ecx7d.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
