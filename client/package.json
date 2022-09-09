@@ -1,7 +1,7 @@
 {
   "name": "reactportfolio",
   "version": "0.1.0",
-  "homepage": "https://neiman924.github.io/reactportfolio",
+  "homepage": "https://neiman.herokuapp.com/",
   "private": true,
   "proxy": "http://localhost:3001",
   "dependencies": {
