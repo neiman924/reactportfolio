@@ -14,7 +14,7 @@ export default function Header(){
             <nav className="navbar navbar-expand-lg navbar-light shadow">
                 <div className="container d-flex justify-content-between align-items-center">
 
-                    <a className="navbar-brand text-success logo h1 align-self-center" href="/home">
+                    <a className="navbar-brand text-success logo h1 align-self-center" href="/">
                         JNeiman
                     </a>
 
