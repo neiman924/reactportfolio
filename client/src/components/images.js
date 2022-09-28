@@ -42,7 +42,7 @@ const IMAGES = {
     Marvel: require('../assets/img/Marvel.png'),
     MyDriver: require('../assets/img/My-Driver.jpg'),
     selfcheckout: require('../assets/img/selfcheckout.png'),
-
+    codecrush: require('../assets/img/codecrush.jpg')
 }
 
 export default IMAGES;

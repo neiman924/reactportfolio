@@ -94,6 +94,26 @@ export default function Projects(){
                     </div>
                 </div>
                 <div className="row">
+                <div className="col-md-4">
+                        <div className="card mb-4 product-wap rounded-0">
+                            <div className="card rounded-0">
+                                <img className="card-img rounded-0 img-fluid" src={IMAGES.codecrush} alt="" />
+                                <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul className="list-unstyled">
+                                        <li><a className="btn btn-success text-white mt-2" href="https://mycodecrush.herokuapp.com/" target="_blank"  rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="card-body">
+                                <a href="https://mycodecrush.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="h3 text-decoration-none">My CodeCrush</a>
+                                <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li><a href="https://github.com/neiman924/CodeCrush" target="_blank" rel="noopener noreferrer" className="h3 text-decoration-none">Github</a></li>
+                                </ul>
+                                <p className="text-center mb-0">Technologies:</p>
+                                <p>JS | React | MongoDB | GraphQL</p>
+                            </div>
+                        </div>
+                    </div>
                     <div className="col-md-4">
                         <div className="card mb-4 product-wap rounded-0">
                             <div className="card rounded-0">
@@ -114,7 +134,26 @@ export default function Projects(){
                             </div>
                         </div>
                     </div>
-
+                    <div className="col-md-4">
+                        <div className="card mb-4 product-wap rounded-0">
+                            <div className="card rounded-0">
+                                <img className="card-img rounded-0 img-fluid" src={IMAGES.Marvel} alt=""/>
+                                <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul className="list-unstyled">
+                                        <li><a className="btn btn-success text-white mt-2" href="https://neiman924.github.io/comicBook/" target="_blank"  rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="card-body">
+                                <a href="https://neiman924.github.io/comicBook/" target="_blank"  rel="noopener noreferrer" className="h3 text-decoration-none">Marvel</a>
+                                <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li><a href="https://github.com/Moetive/Project-1" target="_blank"  rel="noopener noreferrer" className="h3 text-decoration-none">Github</a></li>
+                                </ul>
+                                <p className="text-center mb-0">Technologies:</p>
+                                <p>JavaScript | Express | API</p>
+                            </div>
+                        </div>
+                    </div>
                     <div className="col-md-4">
                         <div className="card mb-4 product-wap rounded-0">
                             <div className="card rounded-0">
@@ -157,26 +196,6 @@ export default function Projects(){
                         </div>
                     </div>
 
-                    <div className="col-md-4">
-                        <div className="card mb-4 product-wap rounded-0">
-                            <div className="card rounded-0">
-                                <img className="card-img rounded-0 img-fluid" src={IMAGES.Marvel} alt=""/>
-                                <div className="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul className="list-unstyled">
-                                        <li><a className="btn btn-success text-white mt-2" href="https://moetive.github.io/Project-1/" target="_blank"  rel="noopener noreferrer" ><i className="far fa-eye"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="card-body">
-                                <a href="https://moetive.github.io/Project-1/" target="_blank"  rel="noopener noreferrer" className="h3 text-decoration-none">Marvel</a>
-                                <ul className="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><a href="https://github.com/Moetive/Project-1" target="_blank"  rel="noopener noreferrer" className="h3 text-decoration-none">Github</a></li>
-                                </ul>
-                                <p className="text-center mb-0">Technologies:</p>
-                                <p>JavaScript | Express | API</p>
-                            </div>
-                        </div>
-                    </div>
                     <div className="col-md-4">
                         <div className="card mb-4 product-wap rounded-0">
                             <div className="card rounded-0">
